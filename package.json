@@ -1,0 +1,17 @@
+{
+  "name": "aws-ejemp-serv",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "serverless-http": "^2.7.0"
+  },
+  "scripts": {
+    "invoke": "sls invoke local -f api",
+    "local": "serverless offline",
+    "deploy": "sls deploy --stage dev --verbose"
+  },
+  "devDependencies": {
+    "serverless-offline": "^8.4.0"
+  }
+}
